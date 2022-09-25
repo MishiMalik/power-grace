@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6EDF0;
+}
+.header-img{
+    background: linear-gradient(to bottom right, rgba(200, 0, 255, 0.293), rgba(200, 0, 255, 0.436)),url('./images/Untitled\ design\ \(2\).png') !important;
+    background-repeat: no-repeat !important;
+    height: 500px;
+    width: 100% !important;
+    object-fit: cover !important;
+    background-position: bottom !important;
+    /* clip-path: polygon(30% 0%, 99.8% 0%, 100% 90.3%, 80.6% 95.3%, 55.1% 97.3%, 22.3% 95.5%, 0.2% 90.8%, 0% 0%); */
+    /* box-shadow: 0px 0px 5px 8px rgba(245,235,235,1) inset; */
+    /* -webkit-box-shadow: 0px -37px 59px 14px rgba(245,235,235,1) inset;
+    -moz-box-shadow: 0px -37px 59px 14px rgba(245,235,235,1) inset; */
+    /* box-shadow: 0 0  9px 8px white inset; */
+    
+}
+.header-border{
+    box-shadow: 0px 0px 20px 30px #F6EDF0;
+    margin-top: -1px;
+   position: relative;
+   z-index: 10;
+   opacity: 1;
+}
+.logo{
+    height: auto;
+    width: 300px;
+    margin-top: 100px;
+}
+.main-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 72px;
+    color: #eb9d00;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin-top: -30px !important;
+}
+.ministries-text{
+    font-family: 'Playball', cursive;
+     font-size: 48px;
+     color: white;
+     margin-top: -25px !important;
+     white-space: nowrap;
+}
+.reaching-text{
+    color: black;
+    font-family: 'Alegreya SC', serif;
+     font-size: 25px;
+     position: relative;
+     z-index: 20;
+     margin-top: -20px;
+}
+.contact{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: -25px !important;
+}
+.contact2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: -5px !important;
+}
+.header-col{
+    background: linear-gradient(to bottom , rgba(200, 0, 255, 0.01),90%, rgba(200, 0, 255, 0.836));
+   position: relative;
+   z-index: 15;
+   padding-bottom: 17px;
+   border-radius: 50%;
+   border-bottom: 2px solid red;
+}
+.couple-img{
+    height: 1100px;
+    width:100%;
+    margin-top: -300px;
+    position: relative;
+    z-index: 15;
+}
+.couple-img-div{
+    position: relative;
+}
+.couple-text{
+    background-color: #f0e5e5 !important;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    z-index: 40;
+    padding: 10px;
+}
+.couple-text h2{
+    font-size: 25px !important;
+    font-weight: 600;
+}
+.couple-text h1{
+    font-size: 30px !important;
+    font-weight: 600;
+}
+.coming{
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: rgb(158, 3, 3);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+.f-30{
+    font-size: 25px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-15{
+    font-size: 15px;
+}
+.w-500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+.text-row{
+    background-color: #f0e5e5;
+    padding: 10px;
+}
+a{
+    text-decoration: none !important;
+}
+.small-icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.f-20{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.lg-icon{
+    height: 50px;
+width: 50px;
+margin-top: 20px;
+}
+.text-yellow{
+    color: #eb9d00 !important;
+}
+
+@media only screen and (min-width:1500px){
+    .couple-text h2{
+        font-size: 30px !important;
+    }
+    .couple-text h1{
+        font-size: 33px !important;
+    }
+    .f-20{
+        font-size: 23px;
+    
+    }
+    .main-heading{
+        font-size: 82px;
+    }
+    .ministries-text{
+         font-size: 55px;
+
+    }
+    .reaching-text{
+
+         font-size: 30px;
+    }
+    .contact{
+        font-size: 25px;
+    }
+    .contact2{
+        font-size: 20px;
+    }
+    .f-30{
+        font-size: 30px;
+    }
+    .f-18{
+        font-size: 22px;
+    }
+    .f-15{
+        font-size: 17px;
+    }
+    .coming{
+        margin-top: 150px;
+    }
+}
+
+
+
+@media only screen and (max-width:1200px) and (min-width:991px){
+    .couple-text h2{
+        font-size: 22px !important;
+    }
+    .couple-text h1{
+        font-size: 25px !important;
+    }
+    .f-20{
+        font-size: 18px;
+    
+    }
+    .main-heading{
+        font-size: 62px;
+    }
+    .ministries-text{
+         font-size: 42px;
+
+    }
+    .reaching-text{
+
+         font-size: 22px;
+    }
+    .contact{
+        font-size: 20px;
+    }
+    .contact2{
+        font-size: 20px;
+    }
+    .f-30{
+        font-size: 22px;
+    }
+    .f-18{
+        font-size: 15px;
+    }
+    .f-15{
+        font-size: 13px;
+    }
+    .coming{
+        white-space: nowrap;
+    }
+    .social-links{
+        flex-wrap: wrap !important;
+    }
+}
+
+@media only screen and (max-width:991px ){
+    .social-links{
+        flex-wrap: wrap !important;
+    }
+    .f-15{
+        font-size: 17px;
+    }
+    .f-30{
+        color: #f0e5e5;
+    }
+    .text-row{
+        background-color: rgba(240, 229, 229, 0.848);
+        padding: 10px;
+    }
+    .links-col{
+        text-align: center !important;
+    }
+    /* .col2{
+        margin-top: -1250px;
+        position: relative;
+        z-index: 20;
+    } */
+    .couple-img{
+        height: 400px;
+        width:auto;
+        margin-top: 100px;
+        
+    }
+    .inks-col-div{
+        justify-content: center !important;
+    }
+    .coming{
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width:768px ){
+    .coming{
+        font-size: 65px;
+        margin-top: 10px;
+    }
+    .header-col{
+       border-radius: 20%;
+       border-bottom: 2px solid red;
+    }
+    .main-heading{
+        font-size: 52px;
+     
+    }
+    .ministries-text{
+         font-size: 38px;
+         white-space: normal;
+    }
+    .reaching-text{
+         font-size: 20px;
+         
+    }
+    .contact{
+        font-size: 18px;
+       
+    }
+    .contact2{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:425px ){
+   
+    .main-heading{
+        font-size: 42px;
+     
+    }
+    .ministries-text{
+         font-size: 27px;
+         white-space: normal;
+         margin-top: -10px !important;
+    }
+    .reaching-text{
+         font-size: 20px;
+         margin-top: -10px !important;
+         text-align: center;
+         line-height: 20px;
+    }
+    .contact{
+        margin-top: -10px !important;
+        font-size: 18px;
+       
+    }
+    .contact2{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width:370px ){
+    .f-20{
+        font-size: 17px;
+    }
+    .f-15{
+        font-size: 13px;
+    }
+    .couple-text h2{
+        font-size: 16px !important;
+    }
+    .couple-text h1{
+        font-size: 18px !important;
+    }
+}
